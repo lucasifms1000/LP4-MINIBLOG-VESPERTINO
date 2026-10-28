@@ -2,8 +2,8 @@ import { useState } from 'react'
 import './App.css'
 import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom';
 
-import Home from './pages/Home.jsx'
-import About from './pages/About.jsx'
+import Home from './pages/Home/Home.jsx'
+import About from './pages/About/About.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
